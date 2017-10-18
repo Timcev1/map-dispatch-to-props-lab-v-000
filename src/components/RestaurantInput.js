@@ -50,4 +50,10 @@ export class RestaurantInput extends Component {
   }
 };
 
+const mapDispatchToProps = (dispatch) =>{
+  return bindActionCreators({
+    addRestaurant,
+  }, dispatch);
+};
+
 export const ConnectedRestaurantInput = connect(null, null)(RestaurantInput)
