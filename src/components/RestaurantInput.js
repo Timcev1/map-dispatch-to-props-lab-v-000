@@ -50,7 +50,9 @@ export class RestaurantInput extends Component {
     );
   }
 };
-
+const mapStateToProps = (state) =>{
+  return {restaurants: state.restaurants}
+}
 const mapDispatchToProps = (dispatch) =>{
   return bindActionCreators({
     addRestaurant,
