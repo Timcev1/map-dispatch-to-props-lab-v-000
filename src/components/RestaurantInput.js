@@ -59,4 +59,4 @@ const mapDispatchToProps = (dispatch) =>{
   }, dispatch);
 };
 
-export const ConnectedRestaurantInput = connect(mapDispatchToProps, mapStateToProps)(RestaurantInput)
+export const ConnectedRestaurantInput = connect(mapStateToProps, mapDispatchToProps)(RestaurantInput)
