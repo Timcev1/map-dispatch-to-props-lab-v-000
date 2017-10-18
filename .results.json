@@ -1,0 +1,60 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2017-10-18T18:34:22.307Z",
+    "end": "2017-10-18T18:34:22.364Z",
+    "duration": 57
+  },
+  "tests": [
+    {
+      "title": "has an add restaurant type",
+      "fullTitle": "restaurants input has an add restaurant type",
+      "duration": 13,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "updates the store",
+      "fullTitle": "restaurants input updates the store",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "updates the store when the form is submitted",
+      "fullTitle": "restaurants input updates the store when the form is submitted",
+      "duration": 19,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "has an add restaurant type",
+      "fullTitle": "restaurants input has an add restaurant type",
+      "duration": 13,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "updates the store",
+      "fullTitle": "restaurants input updates the store",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "updates the store when the form is submitted",
+      "fullTitle": "restaurants input updates the store when the form is submitted",
+      "duration": 19,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
